@@ -5,6 +5,6 @@ class Variable:
         self.data = data
 
 
-data = np.array(1.0)
+data = np.array(2.0)
 x = Variable(data)
 print(x.data)
